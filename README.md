@@ -1,5 +1,7 @@
 # ASSURE-FD
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23975679.svg)](https://doi.org/10.5281/zenodo.23975679)
+
 Code and partition manifests for the paper
 
 **ASSURE-FD: Certified false-alarm rates for cross-machine bearing fault diagnosis through test-time adaptation and conformal risk control**

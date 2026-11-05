@@ -12,5 +12,6 @@ authors:
     affiliation: "Ajloun National University"
 license: MIT
 version: "1.0.0"
+doi: "10.5281/zenodo.23975679"
 date-released: "2026-11-05"
 repository-code: "https://github.com/kmkholm/assure-fd"
