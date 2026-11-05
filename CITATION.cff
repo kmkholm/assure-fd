@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "ASSURE-FD: code and partition manifests for certified false-alarm rates in cross-machine bearing fault diagnosis"
+authors:
+  - family-names: Tawfik
+    given-names: Mohammed
+    orcid: "https://orcid.org/0000-0002-1227-387X"
+    affiliation: "Ajloun National University"
+  - family-names: Fathi
+    given-names: Islam S.
+    orcid: "https://orcid.org/0000-0002-8207-4702"
+    affiliation: "Ajloun National University"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-05"
+repository-code: "https://github.com/kmkholm/assure-fd"

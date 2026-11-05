@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pt
+*.npz
+results/
+results_*/
+paper/
+figures/
+*.pdf
+*.png

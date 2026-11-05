@@ -1,0 +1,200 @@
+{
+ "scenario": "cwru_DE_FE",
+ "meta": {
+  "task": "cls",
+  "in_ch": 1,
+  "n_classes": 4,
+  "classes": [
+   "Healthy",
+   "Inner race",
+   "Outer race",
+   "Ball"
+  ],
+  "src": "CWRU drive-end sensor",
+  "tgt": "CWRU fan-end sensor",
+  "fs": 12000,
+  "rpm": 1772
+ },
+ "sizes": {
+  "x_tr": [
+   8178,
+   1,
+   1024
+  ],
+  "y_tr": [
+   8178
+  ],
+  "x_va": [
+   819,
+   1,
+   1024
+  ],
+  "y_va": [
+   819
+  ],
+  "x_cal": [
+   859,
+   1,
+   1024
+  ],
+  "y_cal": [
+   859
+  ],
+  "x_comm": [
+   150,
+   1,
+   1024
+  ],
+  "x_unl": [
+   2572,
+   1,
+   1024
+  ],
+  "y_unl": [
+   2572
+  ],
+  "x_lab": [
+   2573,
+   1,
+   1024
+  ],
+  "y_lab": [
+   2573
+  ],
+  "x_te": [
+   2953,
+   1,
+   1024
+  ],
+  "y_te": [
+   2953
+  ],
+  "y_tr_counts": [
+   2306,
+   1957,
+   1959,
+   1956
+  ],
+  "y_va_counts": [
+   242,
+   193,
+   192,
+   192
+  ],
+  "y_cal_counts": [
+   246,
+   205,
+   204,
+   204
+  ],
+  "y_unl_counts": [
+   603,
+   636,
+   651,
+   682
+  ],
+  "y_lab_counts": [
+   733,
+   634,
+   620,
+   586
+  ],
+  "y_te_counts": [
+   828,
+   709,
+   708,
+   708
+  ]
+ },
+ "recordings": [],
+ "pool_assignment": "pool windows are assigned to run-in (150 healthy), unlabelled and labelled sets by numpy.random.default_rng(2026) in data._assemble; the run-in set is split 75/75 per seed in run_grid.eval_cls",
+ "cwru": {
+  "dataset": "CWRU",
+  "unit": "one recording per class, fault size and load (12 kHz drive-end and normal-baseline files)",
+  "files": {
+   "0": [
+    [
+     97
+    ],
+    [
+     98
+    ],
+    [
+     99
+    ],
+    [
+     100
+    ]
+   ],
+   "1": [
+    [
+     105,
+     169,
+     209
+    ],
+    [
+     106,
+     170,
+     210
+    ],
+    [
+     107,
+     171,
+     211
+    ],
+    [
+     108,
+     172,
+     212
+    ]
+   ],
+   "2": [
+    [
+     130,
+     197,
+     234
+    ],
+    [
+     131,
+     198,
+     235
+    ],
+    [
+     132,
+     199,
+     236
+    ],
+    [
+     133,
+     200,
+     237
+    ]
+   ],
+   "3": [
+    [
+     118,
+     185,
+     222
+    ],
+    [
+     119,
+     186,
+     223
+    ],
+    [
+     120,
+     187,
+     224
+    ],
+    [
+     121,
+     188,
+     225
+    ]
+   ]
+  },
+  "source_segments": "first 70% train (last window dropped), 70-85% validation (last window dropped), 85-100% calibration",
+  "target_segments": "first 45% pool (run-in, unlabelled and labelled windows), 45-50% guard gap, 50-100% test",
+  "windows": "1024 samples, hop 512 on train/pool segments, hop 1024 on validation, calibration and test segments"
+ }
+}

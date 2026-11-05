@@ -1,0 +1,12 @@
+{
+  "title": "ASSURE-FD: code and partition manifests for certified false-alarm rates in cross-machine bearing fault diagnosis",
+  "upload_type": "software",
+  "description": "Code and recording-level partition manifests for the paper 'ASSURE-FD: Certified false-alarm rates for cross-machine bearing fault diagnosis through test-time adaptation and conformal risk control'. The system certifies the false-alarm rate of a fault-diagnosis model on a newly commissioned machine from its healthy run-in data, combining source-free test-time adaptation with conformal calibration and conformal risk control. Datasets used: CWRU, Paderborn University (KAt), MIMII fan and NASA C-MAPSS (public, not redistributed).",
+  "creators": [
+    {"name": "Tawfik, Mohammed", "affiliation": "Ajloun National University", "orcid": "0000-0002-1227-387X"},
+    {"name": "Fathi, Islam S.", "affiliation": "Ajloun National University", "orcid": "0000-0002-8207-4702"}
+  ],
+  "license": "MIT",
+  "keywords": ["fault diagnosis", "conformal prediction", "test-time adaptation", "domain shift", "predictive maintenance", "bearing"],
+  "access_right": "open"
+}
